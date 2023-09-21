@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="findmypair">
+    <output-path>$PROJECT_DIR$/out/artifacts/findmypair</output-path>
+    <root id="archive" name="findmypair.jar">
+      <element id="module-output" name="findMyPair" />
+    </root>
+  </artifact>
+</component>

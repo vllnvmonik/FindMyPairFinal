@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1000.0" style="-fx-background-color: #5a88c6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.findmypair.cardsControllerMedium">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="476.0" layoutX="125.0" layoutY="87.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="750.0" />
+      <VBox layoutX="191.0" layoutY="124.0" prefHeight="402.0" prefWidth="618.0" spacing="5.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="134.0" prefWidth="103.0" spacing="5.0">
+               <children>
+                  <Button fx:id="button0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button1" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button2" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button3" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button4" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button5" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="134.0" prefWidth="103.0" spacing="5.0">
+               <children>
+                  <Button fx:id="button6" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button7" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button8" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button9" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button10" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button11" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="134.0" prefWidth="103.0" spacing="5.0">
+               <children>
+                  <Button fx:id="button12" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button13" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button14" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button15" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button16" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button17" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClicked" onMouseClicked="#removeStyle" prefHeight="134.0" prefWidth="103.0" style="-fx-background-color: #40404F;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button fx:id="backButton" layoutX="45.0" layoutY="576.0" mnemonicParsing="false" onAction="#startGame" prefHeight="46.0" prefWidth="113.0" styleClass="back-button" stylesheets="@style.css" text="BACK">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="128.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCORE : " wrappingWidth="129.6995849609375">
+         <font>
+            <Font name="Bauhaus 93" size="28.0" />
+         </font>
+      </Text>
+      <ProgressBar fx:id="progressBar" layoutX="388.0" layoutY="30.0" prefHeight="46.0" prefWidth="486.0" progress="1.0" styleClass="progressbar" stylesheets="@style.css" />
+      <Label fx:id="scoreLabel" layoutX="248.0" layoutY="35.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Bauhaus 93" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,1 @@
+hello po, please change the file paths of the soundeffects, photos, and the photos in the fxml files for the game to run.
